@@ -15,7 +15,7 @@
   >
     <div class="">
       <h1 class="sm:text-8xl text-5xl text-white font-bold">
-        CSS Line animations
+        css line animations
       </h1>
       <LineAutomations />
     </div>

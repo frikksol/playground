@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-  <title>Playground</title>
+  <title>playground</title>
 </svelte:head>
 
 <div class="min-w-full min-h-screen bg-black">
@@ -11,7 +11,7 @@
       class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
     >
       <div>
-        <h1 class="sm:text-8xl text-5xl text-white font-bold">Playground</h1>
+        <h1 class="sm:text-8xl text-5xl text-white font-bold">playground</h1>
       </div>
       <div class="xl:pt-28 pt-12">
         <p class="font-sans font-medium text-xl text-white">
