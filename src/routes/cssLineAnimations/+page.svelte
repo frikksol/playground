@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LineAutomations from "../components/css-line-automations/lineAutomations.svelte";
+  import LineAutomations from "../../components/css-line-automations/lineAutomations.svelte";
 
   let innerWidth = 0;
 </script>
