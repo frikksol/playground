@@ -29,8 +29,8 @@
 
       <TextButton text="home" on:click={() => onClickNavigate("/")} />
       <TextButton
-        text="css line animations"
-        on:click={() => onClickNavigate("/cssLineAnimations")}
+        text="line animations"
+        on:click={() => onClickNavigate("/lineAnimations")}
       />
     </nav>
   </div>
