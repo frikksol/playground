@@ -1,11 +1,6 @@
 <script>
-  import { storeHighlightJs } from "@skeletonlabs/skeleton";
-  import hljs from "highlight.js";
-  import "highlight.js/styles/github-dark.css";
   import "../app.css";
   import Nav from "../components/nav.svelte";
-
-  storeHighlightJs.set(hljs);
 </script>
 
 <main class="w-screen h-screen">
