@@ -24,7 +24,7 @@
     on:mouseleave
     on:focus
     {...buttonProps}
-    class="mr-12 w-fit text-white hover:underline hover:decoration-gray-400 text-left text-3xl font-bold font-sansd"
+    class="mr-12 w-fit text-white hover:underline hover:decoration-gray-400 text-left text-3xl font-bold font-sans"
   >
     <h1>{text}</h1>
   </button>
