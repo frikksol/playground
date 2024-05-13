@@ -4,7 +4,15 @@ import { uuidv7 } from "uuidv7";
 export class Uuid {
   static get(config: UuidConfig): string {
     console.log(
-      "creating uuid with config: " + config.amount + "  " + config.version
+      "creating uuid with config: " +
+        "Amount: " +
+        config.amount +
+        ", " +
+        "Version: " +
+        config.version +
+        ", " +
+        "Output type: " +
+        config.output
     );
 
     switch (config.version.toLowerCase()) {

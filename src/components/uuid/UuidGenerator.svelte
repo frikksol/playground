@@ -22,7 +22,9 @@
 </script>
 
 <div class="mt-12">
-  <Button on:click={() => generateUuids()} text="generate" />
+  <div class="flex">
+    <Button on:click={() => generateUuids()} text="generate" />
+    <Button on:click={() => copyToClipboard()} text="copy" />
+  </div>
   <TextField text={uuids} />
-  <Button on:click={() => copyToClipboard()} text="copy" />
 </div>
