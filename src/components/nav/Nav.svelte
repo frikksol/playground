@@ -1,7 +1,7 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import IconButton from "./buttons/IconButton.svelte";
-  import TextButton from "./buttons/TextButton.svelte";
+  import IconButton from "./IconButton.svelte";
+  import TextButton from "./TextButton.svelte";
 
   let showMenu = false;
 

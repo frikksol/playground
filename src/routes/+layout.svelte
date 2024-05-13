@@ -1,6 +1,6 @@
 <script>
   import "../app.css";
-  import Nav from "../components/Nav.svelte";
+  import Nav from "../components/nav/Nav.svelte";
 </script>
 
 <main class="w-screen h-screen">
