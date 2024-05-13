@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Amount from "../../components/uuid/Amount.svelte";
   import Selector from "../../components/uuid/Selector.svelte";
   import UuidGenerator from "../../components/uuid/UuidGenerator.svelte";
   import RootView from "../../components/views/RootView.svelte";
@@ -19,5 +20,6 @@
     elements={UuidConfig.supportedOutputTypes}
     bind:selected={config.output}
   />
+  <Amount title="amount" bind:amount={config.amount} />
   <UuidGenerator />
 </RootView>
