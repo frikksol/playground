@@ -7,6 +7,7 @@
 
   let config = $configStore;
   let uuids: string = "";
+  let copyText = "copy";
 
   onMount(async () => {
     generateUuids();
@@ -17,14 +18,18 @@
   }
 
   function copyToClipboard() {
+    copyText = "copied!";
     navigator.clipboard.writeText(uuids);
+    setInterval(() => {
+      copyText = "copy";
+    }, 1500);
   }
 </script>
 
 <div class="mt-12">
   <div class="flex">
     <Button on:click={() => generateUuids()} text="generate" />
-    <Button on:click={() => copyToClipboard()} text="copy" />
+    <Button on:click={() => copyToClipboard()} bind:text={copyText} />
   </div>
   <TextField text={uuids} />
 </div>
