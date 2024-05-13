@@ -1,7 +1,7 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import IconButton from "./buttons/iconButton.svelte";
-  import TextButton from "./buttons/textButton.svelte";
+  import IconButton from "./buttons/IconButton.svelte";
+  import TextButton from "./buttons/TextButton.svelte";
 
   let showMenu = false;
 
@@ -30,8 +30,9 @@
       <TextButton text="home" on:click={() => onClickNavigate("/")} />
       <TextButton
         text="line animations"
-        on:click={() => onClickNavigate("/lineAnimations")}
+        on:click={() => onClickNavigate("/line-animations")}
       />
+      <TextButton text="uuid" on:click={() => onClickNavigate("/uuid")} />
     </nav>
   </div>
 {:else}
